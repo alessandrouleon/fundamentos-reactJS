@@ -1,12 +1,13 @@
 import styles from './Post.module.css';
 import { Comment } from './Comment';
+import { Avatar } from './Avatar';
 
 export function Post() {
     return (
         <article className={styles.post}>
             <header>
                 <div className={styles.author}>
-                    <img className={styles.avatar} src="https://xesque.rocketseat.dev/users/avatar/profile-d3073b26-4738-4055-99ad-c0b225bd4781-1674083140242.jpg" />
+                    <Avatar src="https://xesque.rocketseat.dev/users/avatar/profile-d3073b26-4738-4055-99ad-c0b225bd4781-1674083140242.jpg" />
                     <div className={styles.authorInfo}>
                         <strong>Alessandro Uleon</strong>
                         <span>Web Developer</span>
@@ -23,7 +24,7 @@ export function Post() {
 
                 <p> 👉 <a href="">jane.design/doctorcare</a></p>
 
-               <p> <a href="">#novoprojeto #nlw #rocketseat </a></p>
+               <p> <a href="">#novoprojeto #nlw #rocketseat</a></p>
             </div>
 
             <form className={styles.commentForm}>
