@@ -9,7 +9,7 @@ const posts = [
   {
     id: 1,
     author: {
-      avatarUrl: 'https://avatars.githubusercontent.com/u/58829459?v=4',
+      avatarUrl: 'https://img.freepik.com/premium-psd/3d-cartoon-avatar-isolated-3d-rendering_235528-265.jpg?w=30',
       name: 'Alessandro Uleon',
       role: 'Analista de Sistema'
     },
@@ -30,8 +30,8 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarUrl: 'https://xesque.rocketseat.dev/users/avatar/profile-d3073b26-4738-4055-99ad-c0b225bd4781-1674083140242.jpg',
-      name: 'Matheus Fernado',
+      avatarUrl: 'https://img.freepik.com/premium-psd/3d-female-cartoon-character-avatar-isolated-3d-rendering_235528-987.jpg?w=82',
+      name: 'Amanda Fernado',
       role: 'Lider de Equipe'
     },
     content: [
